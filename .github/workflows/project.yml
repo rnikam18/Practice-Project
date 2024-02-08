@@ -16,7 +16,7 @@ jobs:
         steps:
             - name: Get code
               uses: actions/checkout@v3
-            - name: Run test
+            - name: Run the test
               run: npm run test
     deploy:
         needs: test
